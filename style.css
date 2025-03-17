@@ -3,3 +3,7 @@ a {
     color: #00aced; /* تغيير اللون إلى الأزرق */
     text-decoration: none; /* إزالة الخط تحت النص */
 }
+a {
+    text-decoration: none;
+}
+
