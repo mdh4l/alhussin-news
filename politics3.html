@@ -11,14 +11,15 @@
         nav a { color: white; text-decoration: none; padding: 10px; margin: 5px; display: inline-block; font-size: 18px; }
         .container { max-width: 1000px; margin: auto; padding: 20px; }
         
-        /* تنسيق الصورة لصفحة الخبر */
-        .news img { 
-            width: 50%; 
-            height: auto; 
-            border-radius: 5px; 
-            max-width: 100%; /* التأكد من عدم تجاوز الصورة عرض الشاشة */
-            object-fit: cover; /* حفظ التناسب بين عرض وارتفاع الصورة */
-        }
+.news img { 
+    width: 100%; 
+    max-width: 100%; /* عدم تجاوز العرض المحدد */
+    height: auto; 
+    border-radius: 5px; 
+    object-fit: cover; 
+    display: block; /* تجنب أي مسافات غير مرغوبة */
+}
+
 
         footer { background: #222; color: white; text-align: center; padding: 15px; margin-top: 20px; }
         .contact { margin-top: 10px; }
